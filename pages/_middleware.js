@@ -20,4 +20,4 @@ export async function middleware(req) {
   if (!token && pathname !== url.pathname) {
     return NextResponse.rewrite(url);
   }
-}
+};
